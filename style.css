@@ -1,8 +1,67 @@
 main {
-    font-family: sans-serif;
-    font-size: 15px;
+  font-family: sans-serif;
+  font-size: 15px;
 }
 
 li {
-    margin: 10px;
+  margin: 10px;
+}
+
+/* max-width 480px, mobile-only*/
+@media screen and (max-width: 30em) {
+  main {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 2em;
+    padding: 1em;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  p,
+  li {
+    font-size: 2em;
+  }
+}
+
+/* Medium screens - TABLET */
+/* min-width 641px, medium screens */
+@media screen and (min-width: 30em) {
+  main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: violet;
+    margin: 0 2em;
+    padding: 2em;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  p,
+  li {
+    font-size: 1.5em;
+  }
+}
+
+/* Large screens - DESKTOP */
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 64em) {
+  main {
+    font-family: "Times New Roman", Times, serif;
+    background-color: yellow;
+    color: brown;
+    margin: 0 2em;
+    padding: 2em;
+  }
+  h1 {
+    font-size: 2em;
+  }
+
+  p,
+  li {
+    font-size: 1em;
+  }
+
+  li::first-letter {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
 }
