@@ -1,5 +1,9 @@
 # Basic Responsivity Exercises
 
+## Link
+
+- Live Site URL: [https://saadmalik200.github.io/Responsiveness-media-queries/](https://saadmalik200.github.io/Responsiveness-media-queries/)
+
 ## Exercise: Media Queries
 
 **Instructions**:
