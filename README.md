@@ -17,11 +17,11 @@ Change the style of the page a different breakpoints!
 **Bonus**
 Style the first letter of these list items at the breakpoint for desktop.
 
-Mobile 
+### Mobile 
 ![alt-text](/reference-images/reference-image-mobile.png "Reference Mobile")
 
-Tablet 
+### Tablet 
 ![alt-text](/reference-images/reference-image-tablet.png "Reference Tablet")
 
-Desktop 
+### Desktop 
 ![alt-text](/reference-images/reference-image-desktop.png "Reference Desktop")
